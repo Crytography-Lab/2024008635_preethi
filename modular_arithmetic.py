@@ -1,0 +1,7 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+m = int(input("Enter modulus: "))
+print("Addition: ", (a + b) % m)
+print("Subtraction: ", (a - b) % m)
+print("Multiplication: ", (a * b) % m)
+print("Exponentiation: ", pow(a, b, m))
